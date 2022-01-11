@@ -6806,6 +6806,8 @@ a.close.disabled {
 }
 
 .carousel {
+  height: 300px;
+  width: 200px;
   position: relative;
 }
 
@@ -6815,8 +6817,10 @@ a.close.disabled {
 }
 
 .carousel-inner {
-  position: relative;
-  width: 100%;
+  position: absolute;
+  top: 0;
+  left:0;
+  min-height: 300px;
   overflow: hidden;
 }
 
