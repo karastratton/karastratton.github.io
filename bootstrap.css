@@ -6807,8 +6807,6 @@ a.close.disabled {
 
 .carousel {
   position: relative;
-  height: 1000px;
-  width: 700px;
 }
 
 .carousel.pointer-event {
@@ -6817,10 +6815,7 @@ a.close.disabled {
 }
 
 .carousel-inner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-height: 700px;
+  position: relative;
   width: 100%;
   overflow: hidden;
 }
